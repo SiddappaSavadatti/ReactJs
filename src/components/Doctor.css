@@ -1,0 +1,81 @@
+.doctor-container {
+    padding: 20px;
+    max-width: 900px;
+    font-family: Arial, sans-serif;
+    margin-right: 200px;
+  }
+  
+  .doctor-table {
+    width: 200%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-table th,
+  .doctor-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .doctor-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .serial-number {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .username {
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .username:hover {
+    color: #0056b3;
+  }
+  
+  .user-details,
+  .modal {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal-content {
+    padding: 20px;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .loading {
+    color: blue;
+  }
+  

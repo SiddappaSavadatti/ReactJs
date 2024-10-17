@@ -1,0 +1,63 @@
+/* Navbar CSS */
+.navbar {
+  background-color: #333;
+  padding: 15px 20px;
+}
+
+.nav-links,
+.nav-links-mobile {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.nav-links li a:hover,
+.nav-links li a.active {
+  background-color: #555;
+  color: white;
+}
+
+/* Mobile Navigation Styles */
+.nav-links-mobile {
+  display: none;
+  flex-direction: column;
+}
+
+.nav-links-mobile li {
+  margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links-mobile {
+    display: flex;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mobile-icon {
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+  }
+}

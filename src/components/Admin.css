@@ -1,0 +1,50 @@
+/* General styles for the body and page layout */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .admin-content {
+    padding-top: 60px; /* Adjust padding to match the height of the navbar */
+  }
+  
+  /* Navbar styles */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000; /* Ensure the navbar stays above other content */
+    height: 50px; /* Define height of the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds a subtle shadow */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Space out links evenly */
+    align-items: center; /* Align links vertically in the navbar */
+    height: 100%;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #555;
+  }
+  
+  

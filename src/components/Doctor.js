@@ -92,7 +92,7 @@ const Doctor = () => {
 
   return (
     <div className="doctor-container">
-      <h1>Doctor List</h1>
+      <h1>Doctors List</h1>
       <table className="doctor-table">
         <thead>
           <tr>

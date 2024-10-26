@@ -56,6 +56,7 @@ const Login = () => {
   return (
     <div className="login-container">
       <div className="login-box">
+        <h1>Hello</h1>
         <h2>LOGIN To My Hospital</h2>
         <form onSubmit={handleSubmit} className="login-form">
           <div className="input-group">

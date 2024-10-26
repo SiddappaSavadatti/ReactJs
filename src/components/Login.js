@@ -10,7 +10,7 @@ const Login = () => {
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   const { updateUserData } = useContext(GlobalContext);
-
+  const a =10;
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
